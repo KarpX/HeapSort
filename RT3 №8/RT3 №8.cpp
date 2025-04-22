@@ -141,5 +141,6 @@ int main()
     heap->heapSort(heap->size()-1);
     heap->print();
 
+    delete heap;
     return 0;
 }
